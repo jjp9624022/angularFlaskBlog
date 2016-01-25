@@ -1,0 +1,18 @@
+<div class="modal-header">
+<h3>{{post.title}}<span class="badge">{{post.tag}}</span></h3>        
+</div>
+<div class="modal-body" >
+<div class="row">
+<img  ng-src="{{ post.img }}" alt="POWER BY ZHIJIANSTUDIO" style="width:100%;padding:5px">
+
+        <p>{{post.description}}</p>
+          <div text-angular="text-angular" name="htmlcontent" ng-model="htmlcontent" ta-disabled='disabled'></div>
+       </div>
+</div>
+        <div class="modal-footer">
+
+            
+            <button class="btn btn-default btn-lg" ng-click="createWindow()">关闭</button>
+            <button  ng-show="theUser" class="btn btn-danger btn-lg" ng-click="deleteItem()">删除</button>
+
+            </div>

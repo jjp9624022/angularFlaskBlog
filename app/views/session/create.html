@@ -1,0 +1,15 @@
+<div><form name="loginForm" >
+  <p>邮箱/用户名：</p>
+  <p>
+  <input type="email" ng-model="user.email" required />
+  </p>
+  <p>密码：</p>
+  <p>
+    <input type="password" ng-model="user.password">
+  </p>
+  <p>
+    <input type="submit" ng-click="createSession()" value="登陆" class="btn btn-success">
+  </p>
+  <label>{{message}}</label>
+</form>
+</div>
