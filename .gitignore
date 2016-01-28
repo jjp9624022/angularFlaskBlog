@@ -60,3 +60,13 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+#node libs
+/node_modules
+
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+/server/wheelhouse
+/bower_components
+/app/bower_components
